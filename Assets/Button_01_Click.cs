@@ -4,7 +4,18 @@ using UnityEngine;
 
 public class Button_01 : MonoBehaviour
 {
-    public int a = 10;
+    public int a = 0;
+
+    public bool isPlus = false;
+    public void OnClickPlus()
+    {
+        isPlus = true;
+    }
+    public void OnClickDedicate()
+    {
+        isPlus = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,49 +30,113 @@ public class Button_01 : MonoBehaviour
 
     public void OnClickButton1()
     {
-        a = 1;
-        Debug.Log(a);   
+        if (isPlus)
+        {
+            a += 1;
+        }
+        else
+        {
+            a -= 1;
+        }
+        Debug.Log(a); 
     }
 
     public void OnClickButton2()
     {
-        a = 2;
+        if (isPlus)
+        {
+            a += 2;
+        }
+        else
+        {
+            a -= 2;
+        }
         Debug.Log(a);
     }
     public void OnClickButton3()
     {
-        a = 3;
+        if (isPlus)
+        {
+            a += 3;
+        }
+        else
+        {
+            a -= 3;
+        }
         Debug.Log(a);
     }
     public void OnClickButton4()
     {
-        a = 4;
+        if (isPlus)
+        {
+            a += 4;
+        }
+        else
+        {
+            a -= 4;
+        }
         Debug.Log(a);
     }
     public void OnClickButton5()
     {
-        a = 5;
+        if (isPlus)
+        {
+            a += 5;
+        }
+        else
+        {
+            a -= 5;
+        }
         Debug.Log(a);
     }
     public void OnClickButton6()
     {
-        a = 6;
+        if (isPlus)
+        {
+            a += 6;
+        }
+        else
+        {
+            a -= 6;
+        }
         Debug.Log(a);
     }
     public void OnClickButton7()
     {
-        a = 7;
+        if (isPlus)
+        {
+            a += 7;
+        }
+        else
+        {
+            a -= 7;
+        }
         Debug.Log(a);
     }
     public void OnClickButton8()
     {
-        a = 8;
+        if (isPlus)
+        {
+            a += 8;
+        }
+        else
+        {
+            a -= 8;
+        }
         Debug.Log(a);
     }
     public void OnClickButton9()
     {
-        a = 9;
+        if (isPlus)
+        {
+            a += 9;
+        }
+        else
+        {
+            a -= 9;
+        }
         Debug.Log(a);
     }
+
 
 }

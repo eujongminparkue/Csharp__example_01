@@ -18,13 +18,13 @@ public class Step_03 : MonoBehaviour
             Debug.Log("두 값이 같은가 : " + isEqual);
         }
 
-    void func2()
-        {
-            int a = 5;
-            int b = 3;
-            bool isNotEuqal = (a != b);
-            Debug.Log("두 값이 다른가 : " + isNotEuqal);
-        }
+    //void func2()
+    //    {
+    //        int a = 5;
+    //        int b = 3;
+    //        bool isNotEuqal = (a != b);
+    //        Debug.Log("두 값이 다른가 : " + isNotEuqal);
+    //    }
         //{
         //    int a = 7;
         //    int b = 4;

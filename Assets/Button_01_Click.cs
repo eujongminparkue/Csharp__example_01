@@ -19,18 +19,18 @@ public class Button_01 : MonoBehaviour
 
     public void OnClickButton1()
     {
-        a++;
+        a = 1;
         Debug.Log(a);   
     }
 
     public void OnClickButton2()
     {
-        a--;
+        a = 2;
         Debug.Log(a);
     }
     public void OnClickButton3()
     {
-        a = 15;
+        a = 3;
         Debug.Log(a);
     }
     public void OnClickButton4()
